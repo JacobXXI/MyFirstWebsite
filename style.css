@@ -36,6 +36,16 @@ nav ul {
     margin-top: 1.5rem;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;  /* Optional: adds background color */
+    padding: 10px 0;           /* Optional: adds some padding */
+    text-align: center;        /* Centers the text */
+}
+
 .nav-link {
     color: #fff;
     text-decoration: none;
@@ -102,6 +112,7 @@ footer {
 .download-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    padding: 10px;
     color: #2d2d2d;
 }
 
